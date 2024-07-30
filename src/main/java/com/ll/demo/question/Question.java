@@ -1,8 +1,9 @@
-package com.ll.demo;
+package com.ll.demo.question;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
+import com.ll.demo.answer.Answer;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
