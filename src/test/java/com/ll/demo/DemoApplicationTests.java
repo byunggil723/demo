@@ -28,9 +28,9 @@ class DemoApplicationTests {
 
 	@Test
 	void testJpa() {
-		// 1st : 질문 데이터 삽입1
-//		Question q1 = new Question();
-//		q1.setSubject("sbb가 무엇인가요?");
+		// 1st : 질문 데이터(튜플) 삽입1
+//		Question q1 = new Question(); // 튜플 생성
+//		q1.setSubject("sbb가 무엇인가요?"); // subject라는 항목(어트리뷰트)에 원소 추가
 //		q1.setContent("sbb에 대해서 알고 싶습니다.");
 //		q1.setCreateDate(LocalDateTime.now());
 //		this.questionRepository.save(q1);  // 첫번째 질문 저장
